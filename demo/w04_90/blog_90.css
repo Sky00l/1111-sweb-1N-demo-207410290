@@ -27,6 +27,7 @@ body {
     height: 22rem;
     display:block;
     object-fit: cover;
+    /* -webkit-filter:saturate(1); */
 }
 
 .blogs {
