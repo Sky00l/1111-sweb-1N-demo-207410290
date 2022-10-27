@@ -52,6 +52,16 @@ Variables
   --fluid-width: 90vw;
   --max-width: 1170px;
   --border-radius: 0.15rem;
+  /*cards*/
+  --card-1-color: #7a2547;
+  --card-1-background: #f4c6d8;
+  --card-1-border:1px solid #7a2547;
+  --card-2-color: blue;
+  --card-2-background: rgba(0,0,255,0.3);
+  --card-2-border: 1px solid #2a5ba8;
+  --card-3-color: rgba(64,124,64);
+  --card-3-background: rgba(0,255,0,0.1);
+  --card-3-border:1px solid rgba(35,75,35);
 }
 /*
 =============== 
@@ -79,10 +89,7 @@ ul {
 a {
   text-decoration: none;
 }
-img:not(.nav-logo) {
-  width: 100%;
-  display: block;
-}
+
 
 h1,
 h2,
@@ -257,20 +264,38 @@ Cards
 
 .card {
   background: #ffffff;
-  padding: 1.5rem 2rem;
+  padding: 1rem 1rem;
   text-align: center;
   max-width: 300px;
-  margin: 3rem;
   border-radius: 0.5rem;
   border: 1px solid transparent;
 }
 
+.card img {
+    width: 100%;
+    display: block;
+    height: 12rem;
+    object-fit: cover;
+}
+
+.card h2 {
+  font-size:1.5rem;
+}
+
+.card p {
+  font-size:15px;
+}
+
 .card-1 {
-    border-color: #ff69a6;
+    border-color: var(--card-1-border);
 }
 
 .card-2 {
-    border-color: #68a3ff;
+    border-color: var(--card-2-border);
+}
+
+.card-3 {
+  border-color: var(--card-3-border);
 }
 
 .icon {
@@ -297,13 +322,21 @@ letter-spacing: 2px;
 }
 
 .btn-1 {
-  background: #ffe8f1;
-  color: #ff69a6;
+  background: var(--card-1-background);
+  color: var(--card-1-color);
+  border:var(--card-1-border) !important;
 }
 
 .btn-2 {
-  background: #ecf4ff;
-  color: #68a3ff;
+  background: var(--card-2-background);
+  color: var(--card-2-color);
+  border:var(--card-2-border) !important;
+}
+
+.btn-3 {
+  background: var(--card-3-background);
+  color: var(--card-3-color);
+  border:var(--card-3-border) !important;
 }
 
 /*
@@ -317,6 +350,7 @@ Blogs
   height: 12rem;
   display:block;
   object-fit: cover;
+  
   /* -webkit-filter:saturate(1); */
 }
 
