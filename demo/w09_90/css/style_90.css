@@ -538,3 +538,12 @@ Resume
   text-transform: uppercase;
   color: #94d9ea;
 }
+
+.right-content {
+  margin: 2.5rem;
+}
+
+article h2 {
+  color: rgb(0, 128, 255);
+  text-transform: uppercase;
+}
