@@ -511,6 +511,30 @@ Resume
 }
 
 .resume-right {
-  background-color: rgb(135, 204, 236);
+  background-color: #ede4e4;
   height: 100%;
+}
+
+.left-content {
+  padding: 2rem 2.5rem;
+}
+
+.profile img {
+ width: 100%;
+ border-radius: 50%;
+}
+
+.name {
+  font-size: 2rem;
+  color: white;
+  padding: 1.2rem 0;
+  text-align:center;
+  text-transform: uppercase;
+}
+
+.career {
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #94d9ea;
 }
