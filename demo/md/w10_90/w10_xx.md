@@ -1,8 +1,8 @@
 ## Github & Vercel URL
 
-[Github URL](https://github.com/htchung/1111-web-demo-id)
+[Github URL](https://github.com/Sky00l/1111-sweb-1N-demo-207410290)
 
-[Vercel URL](https://1111-web-demo-id-kd9e.vercel.app/)
+[Vercel URL](https://1111-sweb-1-n-demo-207410290-dl4i.vercel.app/)
 
 ### W10-P1: show w09-resume locally
 
