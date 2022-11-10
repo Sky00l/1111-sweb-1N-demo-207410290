@@ -13,6 +13,12 @@ function change(index) {
             break;
         case 4:
             p.innerHTML = `<iframe src="./demo/w06_90/blog_90.html" width="100%" height="100%" />`
-            break;   
+            break;
+        case 5:
+            p.innerHTML = `<iframe src="./demo/w08_90/quiz1_90.html" width="100%" height="100%" />`
+            break; 
+        case 6:
+            p.innerHTML = `<iframe src="./demo/w10_90/resume_90.html" width="100%" height="100%" />`
+            break; 
     }
 }
