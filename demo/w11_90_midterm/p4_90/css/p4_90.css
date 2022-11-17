@@ -70,10 +70,47 @@ body {
 Product
 ===================
 */
+.main-section {
+  min-height: 100vh;
+  width: 90vw;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 15fr 85fr;
+}
+.main-section .filter-left {
+  height: 100%;
+}
+.main-section .filter-left .left-content {
+  padding: 2.5rem 3rem;
+  padding-top: 13rem;
+}
+.main-section .filter-left .left-content h4 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+.main-section .filter-left .left-content .company-btn {
+  display: block;
+  margin: 0.25rem 0;
+  padding: 0.25rem;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: var(--grey-500);
+  letter-spacing: var(--letterSpacing);
+}
+.main-section .filter-left .left-content .company-btn:hover {
+  color: var(--grey-800);
+}
+.main-section .products-right {
+  height: 100%;
+}
+
 .products-container {
   width: 80vw;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   justify-content: center;
   align-items: center;
   margin: 15rem auto;
@@ -104,4 +141,4 @@ Product
   box-shadow: var(--shadow-3);
 }
 
-/*# sourceMappingURL=p3_90.css.map */
+/*# sourceMappingURL=p4_90.css.map */
