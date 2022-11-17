@@ -1,0 +1,43 @@
+@use 'global';
+
+
+/*
+===================
+Product
+===================
+*/
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+
+  .single-product {
+    border: 1px solid #a9b6bd;
+    border-radius: var(--borderRadius);
+
+    footer {
+      padding: 0.75rem 0;
+      text-align: center;
+
+      .name{
+        text-transform: capitalize;
+        letter-spacing: var(--letterSpacing);
+        color: var(--grey-500);
+      }
+
+      .price {
+        color:var(--grey-700);
+      }
+    }
+  }
+
+  .single-product-img {
+    display:block;
+    width:25rem;
+    height:15rem;
+    object-fit: cover;
+    border-radius: var(--borderRadius);
+    box-shadow: var(--shadow-3);
+  }
+}
