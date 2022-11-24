@@ -52,9 +52,50 @@ Sidebar
   background-color: var(--clr-grey-10);
   z-index: 5;
   transition: var(--transition);
+  display: flex;
   transform: translateX(-100%);
+  justify-content: center;
+  align-items: center;
+
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  background-color: transparent;
+  border-color: transparent;
+  color: #bb2525;
+  cursor: pointer;
+
+  &:hover {
+    color: #e66b6b;
+  }
+}
+
+&-links {
+  text-align: center;
+
+   a {
+    font-size: 2rem;
+    text-transform: capitlize;
+    color: var(--clr-grey-5);
+    letter-spacing: var(--spacing);
+
+    &:hover {
+      color: var(--clr-primary-5);
+    }
+   }
+}
 }
 
 .show-sidebar {
   transform: translateX(0);
+
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
