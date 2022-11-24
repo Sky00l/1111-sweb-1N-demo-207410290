@@ -97,5 +97,30 @@ Sidebar
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  color: var(--clr-grey-5);
 }
+
+.social-icon {
+  color: var(--clr-grey-5);
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    .nav-links {
+      display: flex;
+      justify-content: space-around;
+      gap: 1.5rem;
+      position: absolute;
+      right: 3rem;
+    }
+
+    .nav-btn {
+      display: none;
+    }
+
+    li a {
+      color: var(--clr-grey-5);
+    }
+  }
+}
+  
