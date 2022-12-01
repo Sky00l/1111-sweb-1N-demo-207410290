@@ -169,6 +169,31 @@ h4 {
   max-width: 1170px;
 }
 
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background-color: var(--clr-primary-5);
+  margin-bottom: 1.25rem;
+  margin: 0 auto;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  color: var(--clr-grey-5);
+  transition: var(--transition);
+}
+.social-icon:hover {
+  color: var(--clr-primary-5);
+}
+
 @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;
@@ -266,13 +291,6 @@ Sidebar
   transform: translateX(0);
 }
 
-.social-icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: var(--clr-grey-5);
-}
-
 .social-icon {
   color: var(--clr-grey-5);
   gap: 1rem;
@@ -305,6 +323,19 @@ Hero
   min-height: calc(100vh - 4rem);
   display: grid;
   place-items: center;
+}
+.hero .underline {
+  margin-left: 0;
+  margin-bottom: center;
+}
+.hero .hero-info h4 {
+  color: var(--clr-grey-5);
+}
+.hero-icons {
+  justify-content: start;
+}
+.hero-btn {
+  margin-top: 1.25rem;
 }
 .hero-img {
   display: none;

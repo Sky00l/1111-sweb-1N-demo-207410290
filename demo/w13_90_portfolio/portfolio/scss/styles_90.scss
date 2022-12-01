@@ -103,12 +103,6 @@ Sidebar
 
 }
 
-.social-icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: var(--clr-grey-5);
-}
 
 .social-icon {
   color: var(--clr-grey-5);
@@ -150,6 +144,23 @@ Hero
     // justify-content: center;
     // align-items: center;
     place-items: center;
+  }
+
+  .underline {
+    margin-left: 0;
+    margin-bottom: center;
+  }
+
+  .hero-info h4 {
+    color: var(--clr-grey-5);
+  }
+
+  &-icons {
+    justify-content: start;
+  }
+
+  &-btn {
+    margin-top: 1.25rem;;
   }
 
   &-img {
