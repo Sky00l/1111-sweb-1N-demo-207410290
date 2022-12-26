@@ -1,0 +1,64 @@
+@use 'global_90';
+
+/* added during recording */
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  margin-bottom: 1.25rem;
+  background: var(--clr-primary-5);
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-title {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.bg-grey {
+  background: var(--clr-grey-10);
+}
+
+/* Navbar */
+
+.nav {
+  // background-color: var(--clr-primary-10);
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav-center {
+  
+  display: flex;
+  justify-content: space-around;
+  width:100%;
+  max-width:var(--max-width);
+  margin: 0 auto;
+}
+
+.nav-links {
+  display: flex;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.show-classdemo {
+  width: 100vw;
+  height: calc(100vh - 5rem);
+}
+
+.name {
+
+  font-size: 22px;
+  color: black;
+  padding: 1.2rem 0;
+  text-align:center;
+  text-transform: uppercase;
+ 
+}
+
+
+

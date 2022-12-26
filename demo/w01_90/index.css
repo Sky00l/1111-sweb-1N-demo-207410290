@@ -1,0 +1,14 @@
+body {
+  background: #f1f5f9;
+}
+.container {
+  background: #fff;
+  max-width: 500px;
+  width: 80vw;
+  margin: 2rem auto;
+  border: 2px solid purple;
+  padding: 1rem 2rem 1.5rem 2rem;
+}
+img {
+  margin: 0 auto;
+}
