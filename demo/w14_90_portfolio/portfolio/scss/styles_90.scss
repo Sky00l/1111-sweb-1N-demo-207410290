@@ -24,6 +24,10 @@ Navbar
 
   &-links {
     display: none;
+    // display: flex;
+    // grid-template-columns: repeat(4, 1fr);
+    // justify-content: center;
+    // gap: 1.5rem;
   }
 
   &-btn {
