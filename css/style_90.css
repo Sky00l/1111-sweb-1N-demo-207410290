@@ -227,6 +227,9 @@ Navbar
 .nav-links {
   display: none;
 }
+.nav-links a {
+  font-size: 14px;
+}
 .nav-btn {
   position: absolute;
   right: 1.5rem;
@@ -235,16 +238,6 @@ Navbar
   color: var(--clr-primary-5);
   background-color: transparent;
   cursor: pointer;
-}
-
-.navbar-fixed {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  background-color: white;
-  box-shadow: var(--light-shadow);
-  z-index: 5;
 }
 
 /*

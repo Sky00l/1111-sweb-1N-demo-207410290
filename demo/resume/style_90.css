@@ -1,0 +1,231 @@
+/*Global Styles
+------------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #EF233C;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 35px;
+  margin-top: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  overflow: auto;
+
+}
+
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/*Header And Footer
+--------------------------------*/
+
+header,
+footer {
+  /* background: #2B2D42; */
+  background: #2B2D42;
+  color: #8D99AE;
+
+}
+
+header {
+  padding-top: 50px;
+  position: relative;
+}
+
+.profile-img {
+
+  border-radius: 50%;
+
+}
+
+/*Header*/
+header h1,
+header h2 {
+  color: #EDF2F4;
+  margin: 0;
+
+}
+
+.btn {
+  background: #EF233C;
+  color: #FFF;
+  padding: 10px;
+  text-decoration: none;
+
+}
+
+.download {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+
+}
+
+/*Footer*/
+footer {
+  text-align: center;
+}
+
+footer a {
+  margin: 10px;
+
+}
+
+/*Nav */
+nav {
+  background: #DDD;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+
+
+
+}
+
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+
+}
+
+
+
+/*Work Experience
+-------------------------------*/
+.work {
+  background: #EDF2F4;
+}
+
+h3~p {
+  margin: 0;
+}
+
+.description p:first-of-type {
+  margin-top: 0;
+}
+
+p .succ-complet {
+  color: red;
+}
+
+.certification a {
+  text-decoration: none;
+}
+
+/*Education
+-------------------------------*/
+.education {
+
+  background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)), url("https://s14.postimg.org/ro9tnhcep/cairo.jpg") no-repeat fixed;
+  background-size: cover;
+
+
+}
+
+p+h3 {
+  margin-top: 25px
+}
+
+h3+h4,
+h3+p {
+  margin: 0;
+}
+
+/*Media Query
+-------------------------------*/
+@media (min-width: 900px) {
+  .column-narrow {
+    width: 30%;
+    float: left;
+    margin-top: 40px;
+   
+  }
+
+  .column-wide {
+    width: 70%;
+    float: left;
+    padding-left: 30px;
+    margin-top: 40px;
+    
+
+  }
+
+  .profile-img {
+    width: 225px;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 899px) {
+
+  header {
+    text-align: center;
+
+  }
+
+  .profile-img {
+    width: 170px;
+    border-radius: 50%;
+  }
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  color: var(--clr-grey-5);
+  justify-content: center;
+  display: inline-block;
+  text-decoration: none;
+}

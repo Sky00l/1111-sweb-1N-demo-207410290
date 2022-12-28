@@ -28,6 +28,10 @@ Navbar
     // grid-template-columns: repeat(4, 1fr);
     // justify-content: center;
     // gap: 1.5rem;
+
+    a {
+      font-size: 14px;
+    }
   }
 
   &-btn {
@@ -41,15 +45,15 @@ Navbar
   }
 }
 
-.navbar-fixed {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  background-color: white;
-  box-shadow: var(--light-shadow);
-  z-index: 5;
-}
+// .navbar-fixed {
+//   position: fixed;
+//   left: 0;
+//   top: 0;
+//   width: 100%;
+//   background-color: white;
+//   box-shadow: var(--light-shadow);
+//   z-index: 5;
+// }
 
 /*
 =============== 
@@ -149,8 +153,6 @@ Sidebar
   color: black;
   padding-top: 1rem;
   padding-left: 2.5rem;
-  text-align:center;
+  text-align: center;
   // text-transform: uppercase;
 }
-
-
