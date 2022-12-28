@@ -27,7 +27,7 @@ a:hover {
 
 h1,
 h2 {
-  
+
   font-family: 'Caveat', cursive;
   font-weight: 400;
 }
@@ -167,10 +167,8 @@ p .succ-complet {
 /*Education
 -------------------------------*/
 .education {
-
   background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)), url("https://s14.postimg.org/ro9tnhcep/cairo.jpg") no-repeat fixed;
   background-size: cover;
-
 
 }
 
@@ -190,7 +188,7 @@ h3+p {
     width: 30%;
     float: left;
     margin-top: 40px;
-   
+
   }
 
   .column-wide {
@@ -198,7 +196,7 @@ h3+p {
     float: left;
     padding-left: 30px;
     margin-top: 40px;
-    
+
 
   }
 
@@ -222,10 +220,47 @@ h3+p {
 }
 
 .social-icon {
-  display: flex;
-  align-items: center;
   color: var(--clr-grey-5);
   justify-content: center;
   display: inline-block;
-  text-decoration: none;
+  
 }
+
+.social-icons {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
+}
+
+.social-icon:hover {
+  color: white;
+}
+
+.work-container {
+  background: #EDF2F4;
+  max-width: 500px;
+  width: 80vw;
+  /* margin: 2rem auto; */
+  border: 2px solid #2B2D42;
+  padding: 1rem 2rem 1.5rem 2rem;
+
+}
+
+.work-container h1 {
+  margin: 16px 0;
+  font-size: 24px;
+}
+
+.work-container h2 {
+  margin: 14px 0;
+  font-size: 18px;
+}
+
+footer h2 {
+  margin-bottom: 14px;
+}
+
+
