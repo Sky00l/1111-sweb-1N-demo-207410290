@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="tabs js-tabs">
+    <ul role="tablist" class="tabs__tab-list">
+        <li role="presentation"><a href="#section1" role="tab" aria-controls="section1" class="tabs__trigger js-tab-trigger">問題解決</a></li>
+        <li role="presentation"><a href="#section2" role="tab" aria-controls="section2" class="tabs__trigger js-tab-trigger">自主學習</a></li>
+        <li role="presentation"><a href="#section3" role="tab" aria-controls="section3" class="tabs__trigger js-tab-trigger">學習心得</a></li>
+    </ul>
+    <section id="section1" role="tabpanel" class="tabs__panel js-tab-panel">
+       
+        <p>這次的期末報告在git,環境跟css上遇到比較多問題。
+          <br><br>
+          首先是環境設定,用自己的筆電做的時候sass一直無法監聽，問題來自node.js 跟npm 版本不相容，經過仔細研究才調整好設定，順利監聽。
+          <br><br>
+          Git方面在前幾週上課，上傳作業的時候一直出現錯誤，熟悉指令後才找到問題，大部分是指令打錯還有上傳順序打錯。
+          <br><br>
+          CSS:在css上遇到的問題有排版，分割區塊，語法不熟。
+          排版最常用的flex/grid，在熟讀文章之後才慢慢釐清什麼時候該用哪一種
+          響應式網頁需要設定斷點，在個人實作work裡遇到了寬度設定的問題，因為每個section 有自己的寬度，但是我又設定body的max-width所以明明有設定斷點，但是一直沒有出現結果。
+    </section>
+    <section id="section2" role="tabpanel" class="tabs__panel js-tab-panel">
+        
+        <p>自主學習 參考了以前教過的project還有free html template
+          <br><br> 
+          這次的work.html按照這學期教的css進行參考
+          在寫work.html的時候學習了很多css的相關語法 其中最多的是有關flex的文章
+          這篇寫的非常詳細，每次忘記怎麼用都會拿出來看(<a href="https://www.casper.tw/css/2017/07/21/css-flex/ ">圖解：CSS Flex </a>)
+          <br><br>
+          在learn.html有用到tab切換 參考了網路上的範例，因為我對js的很多概念比較薄弱，看了很多文章也自己研究了很久，最後寫了簡單的切換功能。
+          <br><br>
+          在resume.html同樣也參考了free html template，在排版上有做改變，且也有使用段點做響應式，在寫的過程中有發現css更多的變化，例如畫面可以做漸層的效果或是一些特殊的動畫。</p>
+    </section>
+    <section id="section3" role="tabpanel" class="tabs__panel js-tab-panel">
+      <p>
+      這學期在學習上沒有遇到太大的困難
+      <br>
+      除了學到了很多html跟css也學了一些js
+      這學期的學習態度積極了很多<br><br>
+      比起之前常常因為課程難度太高學期中就想放棄
+      <br>
+      這學期很努力的撐到期末，不過最後兩週學習狀況不太理想
+      <br><br>
+      給自己的期許，希望下學期也能保持積極的心態，然後js的部分需要加強，養成每天寫程式的習慣。</p>
+    </section>
+  </div>
+<script src="./index.js"></script>
+</body>
+</html>
+

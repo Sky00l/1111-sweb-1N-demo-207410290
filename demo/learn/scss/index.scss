@@ -1,0 +1,58 @@
+.tabs__tab-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tabs__trigger {
+  background: lightgrey;
+  border: 1px solid;
+  border-bottom: none;
+  color: #000;
+  display: block;
+  font-weight: bold;
+  margin-right: 5px;
+  padding: 15px 20px;
+  text-decoration: none;
+  
+  &.is-selected {
+      background: lightblue;
+  }
+}
+
+.tabs__panel {
+  border: 1px solid;
+  display: none;
+  padding: 20px;
+
+  .is-initialized & {
+      display: inherit;
+  }
+
+  &.is-hidden {
+      display: none;
+  }
+}
+
+
+body {
+  font-family: sans-serif;
+  margin: auto;
+  padding: 30px;
+  max-width: 800px;
+  overflow-y: scroll;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+:focus {
+  box-shadow: 0 0 4px dodgerblue;
+  outline: none;
+}

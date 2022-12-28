@@ -12,7 +12,7 @@ function change(index) {
           p.innerHTML = `<iframe src="./demo/resume/resume.html" width="100%" height="100%" />`
           break;
       case 4:
-          p.innerHTML = `<iframe src="./learn_90.html" width="100%" height="100%" />`
+          p.innerHTML = `<iframe src="./demo/learn/learn_90.html" width="100%" height="100%" />`
           break;
      
   }
