@@ -13,3 +13,6 @@
 
 ### w14-log
 ![](./images/w14-log.PNG)
+
+### w16-log
+![](./images/w16-log.PNG)
