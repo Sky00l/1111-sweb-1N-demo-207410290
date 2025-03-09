@@ -1,49 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-    <title>My Homepage</title>
-    <link rel="stylesheet" href="./css/style_90.css" />
-   
-  </head>
-  <body>
-    <nav class="nav" id="nav">
-      <div class="nav-center">
-        <!-- nav header -->
-        <div class="nav-header">
-          <h2 class="name">207410290 林泓君</h2>
-        </div>
-        <!-- nav-links -->
-        <ul class="nav-links">
-          <li onclick="change(1)">
-            <a href="#">Demo</a>
-          </li>
-          <li onclick="change(2)">
-            <a href="#">Work</a>
-          </li>
-          <li onclick="change(3)">
-            <a href="#">Resume</a>
-          </li>
-          <li onclick="change(4)">
-            <a href="#">Learn_90</a>
-          </li>
-        </ul>
-        <button class="nav-btn" id="nav-btn">
-          <i class="fas fa-bars"></i>
-        </button>
-      </div>
-    </nav>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Demo</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome（如果要使用搜尋與漢堡選單圖示） -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="./navbar/style.css">
+</head>
+
+<body>
+    <section class="ftco-section">
+        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">207410290</a>
+                <form action="#" class="searchform order-sm-start order-lg-last">
+                    <div class="form-group d-flex">
+                        <input type="text" class="form-control pl-3" placeholder="Search">
+                        <button type="submit" placeholder="" class="form-control search"><span class="fa fa-search"></span></button>
+                    </div>
+                </form>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span> Menu
+                  </button>
+                <div class="collapse navbar-collapse" id="ftco-nav">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                        Class Demo
+                    </a>
+
+                            <ul class="dropdown-menu">
+
+                                <div class="dropdown-category">
+                                    <h6 class="dropdown-header">Week 1-5</h6>
+                                    <a onclick="showClassDemo(5)" class="dropdown-item" href="#">Intro</a>
+                                    <a onclick="showClassDemo(6)" class="dropdown-item" href="#">Card</a>
+                                    <a onclick="showClassDemo(7)" class="dropdown-item" href="#">Blog</a>
+                                </div>
+                                <div class="dropdown-category">
+                                    <h6 class="dropdown-header">RWD Page</h6>
+                                    <a onclick="showClassDemo(8)" class="dropdown-item" href="#">Grid</a>
+                                    <a onclick="showClassDemo(9)" class="dropdown-item" href="#">Multipge</a>
+                                    <a onclick="showClassDemo(10)" class="dropdown-item" href="#">ImgGallery</a>
+                                </div>
+                                <div class="dropdown-category">
+                                    <h6 class="dropdown-header">Portfolio
+                                    </h6>
+                                    <a onclick="showClassDemo(11)" class="dropdown-item" href="#">Portfolio-1                                    </a>
+                                    <a onclick="showClassDemo(12)" class="dropdown-item" href="#">Portfolio-2</a>
+                                    <a onclick="showClassDemo(13)" class="dropdown-item" href="#">Portfolio-3</a>
+                                </div>
+                                <div class="dropdown-category">
+                                    <h6 class="dropdown-header">Side Project</h6>
+                                    <a onclick="showClassDemo(14)" class="dropdown-item" href="#">Product Page</a>
+                                    <a onclick="showClassDemo(15)" class="dropdown-item" href="#">MS-clone</a>
+                                    <a onclick="showClassDemo(16)" class="dropdown-item" href="#">Portfolio-final</a>
+                                </div>
+
+
+                            </ul>
+
+                        </li>
+                        <li onclick="showClassDemo(2)" class="nav-item"><a href="#" class="nav-link">Work</a></li>
+                        <li onclick="showClassDemo(3)" class="nav-item"><a href="#" class="nav-link">Resume</a></li>
+                        <li onclick="showClassDemo(4)" class="nav-item"><a href="#" class="nav-link">Learn_90</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">README</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- END nav -->
+
+    </section>
     <section class="show-classdemo"></section>
     <script src="./js/index.js"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
