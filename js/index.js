@@ -50,6 +50,9 @@ const showClassDemo = index => {
         case 15:
             showDemo.innerHTML = `<iframe src="./demo/w07-ms-clone/index.html" width="100%" height="100%" />`
             break
+        case 17:
+            showDemo.innerHTML = `<iframe src="./classdemo_90.pdf" width="100%" height="100%" />`
+            break
 
     }
 }
